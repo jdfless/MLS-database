@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	background-color: #C2DFFF;
+	margin-left: 20%;
+}
+
+table, td {
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	text-align: center;
+	padding: 10px 
+}
+
+th {
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 1px;
+	text-align: center;
+	padding: 5px 
+}
+
+.teamsForm, .stadForm, .ocTeams, .tShowDiv, .sShowDiv, .ocShowDiv{
+	width: 525px;
+}
+
+.playersForm, .coachesForm, .opTeams, .pShowDiv, .cShowDiv, .opShowDiv{
+	width: 475px;
+}
+
+.teamsForm, .playersForm, .stadForm, .coachesForm, .ocTeams, .opTeams, 
+.tShowDiv, .pShowDiv, .sShowDiv, .cShowDiv, .ocShowDiv, .opShowDiv {
+	float: left;
+	margin: 10px;
+}
+
+input:focus, input:hover {
+	background-color: #EFEEEC
+}
+
+.form-error {
+	color: #C24641;
+}
+
+.error {
+	background: #FDD7E4;
+}
+
+.breakDiv {
+	clear: both;
+}
+
